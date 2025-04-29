@@ -31,49 +31,59 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Front Page</title>
     <style>
-        /* Basic styles */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: blue;
+            background-color: #f5f0e1; /* Page background */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
         .book-cover {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            background-image: url('your-image.jpg'); /* Replace with your book cover image */
-            background-size: cover;
-            background-position: center;
+            width: 400px;
+            height: 600px;
+            background-color: #1e3a5f; /* Book cover color - dark blue */
             color: white;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+            border: 2px solid #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
             text-align: center;
-            padding-top: 150px;
+            border-radius: 8px;
         }
 
         .book-title {
-            font-size: 3em;
+            font-size: 2.5em;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
         }
 
         .author {
-            font-size: 1.5em;
+            font-size: 1.2em;
             font-style: italic;
+            margin-bottom: 20px;
         }
 
         .description {
-            font-size: 1.2em;
-            margin-top: 30px;
-            max-width: 80%;
-            margin-left: auto;
-            margin-right: auto;
+            font-size: 1em;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 8px;
+            line-height: 1.4em;
         }
     </style>
 </head>
@@ -89,11 +99,15 @@ Publish the website in the LocalHost.
 
 </body>
 </html>
+```
+
+
 
 
 
 ## OUTPUT:
-![Screenshot 2025-04-29 150112](https://github.com/user-attachments/assets/699d66f2-803c-4c61-a043-54d0ab68db9e)
+![Screenshot 2025-04-29 182955](https://github.com/user-attachments/assets/bb5cf775-0188-4ef7-8c9d-01982b523ecf)
+
 
 
 
